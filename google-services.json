@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_id": "fashonation-5b7a3",
+    "project_number": "147876032117",
+    "name": "Fashonation"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147876032117:android:8854905c9d1efbef",
+        "client_id": "android:com.example.dhruva.fashonation",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.dhruva.fashonation",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147876032117-kb17sd9m0uft5l0lgahv8gsoddmsm7oh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dhruva.fashonation",
+            "certificate_hash": "6B650F5021A501B909444F81B4A40ACA8331E4EA"
+          }
+        },
+        {
+          "client_id": "147876032117-94dmnqtpst8armunopbk0mkpq9hho3km.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
