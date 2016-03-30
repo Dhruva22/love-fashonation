@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="fashonation.fashonation.Checkout">
+
+    <fashonation.fashonation.NonSwipeableViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+   <!--<github.chenupt.springindicator.SpringIndicator
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:textSize="18sp"
+        app:indicatorColors="@array/indicator_colors"
+        app:textColor="@color/colorPrimaryDark"
+        app:selectedTextColor="@android:color/white"
+        app:indicatorColor="@color/colorPrimary"
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/indicator"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/view_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />-->
+
+</RelativeLayout>
