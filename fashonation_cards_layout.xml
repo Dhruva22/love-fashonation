@@ -58,12 +58,21 @@
                 android:orientation="horizontal"
                 android:layout_gravity="right">
                 <ImageButton
-                    android:layout_width="wrap_content"
+                    android:layout_width="35dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
                     android:id="@+id/wishlist"
+                    android:src="@drawable/wishlst"
+                    style="?android:attr/borderlessButtonStyle"/>
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/cart"
+                    android:src="@drawable/cart"
+                    style="?android:attr/borderlessButtonStyle"/>
 
-                    android:src="@drawable/wishlist"/>
             </LinearLayout>
         </LinearLayout>
 
